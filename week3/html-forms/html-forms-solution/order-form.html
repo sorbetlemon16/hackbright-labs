@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+  <title>Order a Melongram!</title>
+</head>
+<body>
+  <h1>Order a Melongram</h1>
+  <p>
+    There's no better way to show a loved one you care than with a Melongram.
+  </p>
+  <p>
+    Each Melongram comes with a custom message printed on high-quality cardstock
+    and your choice of a hand-picked, premium melon.
+  </p>
+
+  <h2>Melon Options</h2>
+  <p>Choose from one of these melons:</p>
+  <table>
+    <tr>
+      <td>Watermelon</td>
+      <td>$1,200.00</td>
+    </tr>
+    <tr>
+      <td>Canteloupe</td>
+      <td>$400.00</td>
+    </tr>
+    <tr>
+      <td>Honeydew</td>
+      <td>$1,750,00.00</td>
+    </tr>
+  </table>
+
+  <h2>Order Form</h2>
+  <form>
+    <div>
+      Your name
+      <input type="text" name="name">
+    </div>
+
+    <div>
+      Who are we sending this to?
+      <input type="text" name="recipient">
+    </div>
+
+    <div>
+      Choose a melon
+      <select name="melon">
+        <option value="watermleon">Watermleon</option>
+        <option value="canteloupe">Canteloupe</option>
+        <option value="honeydew">Honeydew</option>
+      </select>
+    </div>
+
+    <div>
+      When should we deliver?
+      <input type="radio" name="time" value="am"> Morning
+      <input type="radio" name="time" value="pm"> Evening
+      <input type="radio" name="time" value="any"> Any time
+    </div>
+
+    <div>
+      <p>Enter your message:</p>
+      <textarea name="message"></textarea>
+    </div>
+
+    <div>
+      Subscribe to our newsletter
+      <input type="checkbox" name="subscribe" value="yes">Yes
+    </div>
+
+    <input type="submit">
+  </form>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+  <title>Order a Melongram!</title>
+</head>
+<body>
+  <header>
+    <h1>Order a Melongram</h1>
+  </header>
+
+  <section id="intro">
+    <p>
+      There's no better way to show a loved one you care than with a Melongram.
+    </p>
+    <p>
+      Each Melongram comes with a custom message printed on high-quality
+      cardstock and your choice of a hand-picked, premium melon.
+    </p>
+  </section>
+
+  <section id="melon-options">
+    <h2>Melon Options</h2>
+
+    <p>Choose from one of these melons:</p>
+    <table>
+      <tr>
+        <td>Watermelon</td>
+        <td>$1,200.00</td>
+      </tr>
+      <tr>
+        <td>Canteloupe</td>
+        <td>$400.00</td>
+      </tr>
+      <tr>
+        <td>Honeydew</td>
+        <td>$1,750,00.00</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="order-form">
+    <h2>Order Form</h2>
+
+    <form>
+      <div>
+        <label for="name">Your name</label>
+        <input type="text" name="name" id="name">
+      </div>
+
+      <div>
+        <label for="recipient">Who are we sending this to?</label>
+        <input type="text" name="recipient" id="recipient">
+      </div>
+
+      <div>
+        <label for="melon">Choose a melon</label>
+        <select name="melon" id="melon">
+          <option value="watermleon">Watermleon</option>
+          <option value="canteloupe">Canteloupe</option>
+          <option value="honeydew">Honeydew</option>
+        </select>
+      </div>
+
+      <div>
+        <fieldset>
+          <legend>When should we deliver?</legend>
+
+          <div>
+            <input type="radio" name="time" value="am" id="am">
+            <label for="am">Morning</label>
+          </div>
+          <div>
+            <input type="radio" name="time" value="pm" id="pm">
+            <label for="pm">Evening</label>
+          </div>
+          <div>
+            <input type="radio" name="time" value="any" id="any">
+            <label for="any">Any time</label>
+          </div>
+        </fieldset>
+      </div>
+
+      <div>
+        <p>
+          <label for="message">Enter your message:</label>
+        </p>
+        <textarea name="message" id="message"></textarea>
+      </div>
+
+      <div>
+        <fieldset>
+          <legend>Subscribe to our newsletter</legend>
+          <input type="checkbox" name="subscribe" value="yes" id="sub-yes">
+          <label for="sub-yes">Yes</label>
+        </fieldset>
+      </div>
+
+      <input type="submit">
+    </form>
+  </section>
+</body>
+</html>
